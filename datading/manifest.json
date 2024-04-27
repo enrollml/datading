@@ -24,13 +24,13 @@
         "sounds/game.wav",
         "sounds/scifi.wav"
       ],
-      "matches": ["https://*.cloud.databricks.com/*"]
+      "matches": ["https://*.databricks.com/*"]
     }
   ],
 
   "content_scripts": [
     {
-      "matches": ["https://*.cloud.databricks.com/*"],
+      "matches": ["https://*.databricks.com/*"],
       "js": ["cont.js"]
     }
   ]
